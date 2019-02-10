@@ -1,0 +1,4 @@
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.BusinessRules\bin\Debug\BykeRental.BusinessRules.dll
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.BusinessRules\bin\Debug\BykeRental.BusinessRules.pdb
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.BusinessRules\obj\Debug\BykeRental.BusinessRules.dll
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.BusinessRules\obj\Debug\BykeRental.BusinessRules.pdb

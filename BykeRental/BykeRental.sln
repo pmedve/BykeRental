@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BykeRental", "BykeRental\BykeRental.csproj", "{9121DAFF-3810-4178-9AA6-898A3135192E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BykeRental.BusinessRules", "BykeRental.BusinessRules\BykeRental.BusinessRules.csproj", "{6FBBFB5C-9C5B-4E4C-9F2C-82B485A7729C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BykeRental.BusinessRulesImplementation", "BykeRental.BusinessRulesImplementation\BykeRental.BusinessRulesImplementation.csproj", "{8B6CB164-6082-4168-AC29-CC787E249387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BykeRental.Test", "BykeRental.Test\BykeRental.Test.csproj", "{5FD4ACB7-04BE-4B4A-934C-8153DD78F756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF479750-289B-4568-B0FE-919678698486}"
+	ProjectSection(SolutionItems) = preProject
+		BykeRental.vsmdi = BykeRental.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BykeRental.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9121DAFF-3810-4178-9AA6-898A3135192E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9121DAFF-3810-4178-9AA6-898A3135192E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9121DAFF-3810-4178-9AA6-898A3135192E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9121DAFF-3810-4178-9AA6-898A3135192E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBBFB5C-9C5B-4E4C-9F2C-82B485A7729C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBBFB5C-9C5B-4E4C-9F2C-82B485A7729C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBBFB5C-9C5B-4E4C-9F2C-82B485A7729C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBBFB5C-9C5B-4E4C-9F2C-82B485A7729C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6CB164-6082-4168-AC29-CC787E249387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6CB164-6082-4168-AC29-CC787E249387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6CB164-6082-4168-AC29-CC787E249387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6CB164-6082-4168-AC29-CC787E249387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD4ACB7-04BE-4B4A-934C-8153DD78F756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD4ACB7-04BE-4B4A-934C-8153DD78F756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD4ACB7-04BE-4B4A-934C-8153DD78F756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD4ACB7-04BE-4B4A-934C-8153DD78F756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

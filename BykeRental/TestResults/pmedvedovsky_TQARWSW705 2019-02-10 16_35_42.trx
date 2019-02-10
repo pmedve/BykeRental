@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1ebe1199-293f-4931-9a07-f127ce33eba8" name="pmedvedovsky@TQARWSW705 2019-02-10 16:35:42" runUser="TQ\pmedvedovsky" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8b91658c-66ff-481b-9ae0-458d5bd3f4eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pmedvedovsky_TQARWSW705 2019-02-10 16_35_42">
+      <DeploymentItem filename="c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.BusinessRulesImplementation\bin\Debug\BykeRental.BusinessRulesImplementation.dll" />
+      <DeploymentItem filename="c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.BusinessRules\bin\Debug\BykeRental.BusinessRules.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-02-10T16:35:42.6197906-03:00" queuing="2019-02-10T16:35:44.7730059-03:00" start="2019-02-10T16:35:44.9320218-03:00" finish="2019-02-10T16:35:46.7472033-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Rent_Per_Hour_GetCost_ManyHours" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="455cc07f-4983-5cfa-6439-e8c6929d7029">
+      <Execution id="04b1529c-bbef-432c-9ac8-0336804095ee" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Hour_GetCost_ManyHours" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Family_GetCost_3rents" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="5f7f70fd-c531-351b-7337-2590fcb358bf">
+      <Execution id="205d87ef-f619-4392-9493-35d8da244cd8" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Family_GetCost_3rents" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Family_GetCost_6rents" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="714bf7e1-b961-3791-11a1-4d50e9d8d4c1">
+      <Execution id="406b83b6-7b0e-4b12-97ff-51c09df7fac1" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Family_GetCost_6rents" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Week_GetCost_OneWeek" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="4648ca78-7592-61e8-db46-b60e9c91ffb5">
+      <Execution id="38a3ce83-4bcc-48c2-a6ba-0258fe9d405d" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Week_GetCost_OneWeek" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Day_GetCost_ManyDays" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="20ef357a-e2b1-1b39-b086-806b45cf6d8e">
+      <Execution id="974117dc-0b03-4b70-8f95-3ee1dd7f3024" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Day_GetCost_ManyDays" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Week_GetCost_WhitoutInitialize" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="4b935f47-8282-abeb-2dc9-1c0f65cfa54e">
+      <Execution id="28018778-0d2f-4fcb-8144-9404b0ebc476" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Week_GetCost_WhitoutInitialize" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Day_GetCost_WhitoutInitialize" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="79ded3df-0583-7777-4cdb-66c996c8d33e">
+      <Execution id="8c873200-30bf-4706-a131-d2cee3e01949" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Day_GetCost_WhitoutInitialize" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Family_GetCost_2rents" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="e64788e3-da31-37c7-ba42-0d852438ce82">
+      <Execution id="60b06b99-21f9-484d-a9a3-fed0d5d9f347" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Family_GetCost_2rents" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Day_GetCost_OneDay" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="a8de74fa-1a25-896f-c4b8-d44dc141ad71">
+      <Execution id="bc6bb39d-8d12-4e36-906d-a5a9aa6166d9" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Day_GetCost_OneDay" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Hour_GetCost_OneHour" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="86339633-0f60-1b90-aaba-e6c1e071826a">
+      <Execution id="d95d1339-cb09-47b3-a6af-0ac7dc7e1e75" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Hour_GetCost_OneHour" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Hour_GetCost_WhitoutInitialize" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="157bd4c3-2ea4-b821-4ad5-1749d62fb7a0">
+      <Execution id="c78ee883-a899-490a-92bd-36f007391d86" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Hour_GetCost_WhitoutInitialize" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Family_GetCost_5rents" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="fc010075-dc55-718f-51f2-ae3f44922188">
+      <Execution id="4a9b6dcd-e793-4cb2-9e70-0e010edf5995" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Family_GetCost_5rents" />
+    </UnitTest>
+    <UnitTest name="Rent_Per_Week_GetCost_ManyWeeks" storage="c:\users\jmedvedovsky\documents\visual studio 2010\projects\bykerental\bykerental.test\bin\debug\bykerental.test.dll" id="45bd35ee-1ada-3c4f-ec82-350fbc83b4a0">
+      <Execution id="69305c46-7517-44e3-b388-f40fb77620c5" />
+      <TestMethod codeBase="C:/Users/jmedvedovsky/Documents/Visual Studio 2010/Projects/BykeRental/BykeRental.Test/bin/Debug/BykeRental.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BykeRental.UnitTest.UnitTest_RentManager, BykeRental.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rent_Per_Week_GetCost_ManyWeeks" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="455cc07f-4983-5cfa-6439-e8c6929d7029" executionId="04b1529c-bbef-432c-9ac8-0336804095ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86339633-0f60-1b90-aaba-e6c1e071826a" executionId="d95d1339-cb09-47b3-a6af-0ac7dc7e1e75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="157bd4c3-2ea4-b821-4ad5-1749d62fb7a0" executionId="c78ee883-a899-490a-92bd-36f007391d86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20ef357a-e2b1-1b39-b086-806b45cf6d8e" executionId="974117dc-0b03-4b70-8f95-3ee1dd7f3024" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8de74fa-1a25-896f-c4b8-d44dc141ad71" executionId="bc6bb39d-8d12-4e36-906d-a5a9aa6166d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79ded3df-0583-7777-4cdb-66c996c8d33e" executionId="8c873200-30bf-4706-a131-d2cee3e01949" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45bd35ee-1ada-3c4f-ec82-350fbc83b4a0" executionId="69305c46-7517-44e3-b388-f40fb77620c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4648ca78-7592-61e8-db46-b60e9c91ffb5" executionId="38a3ce83-4bcc-48c2-a6ba-0258fe9d405d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b935f47-8282-abeb-2dc9-1c0f65cfa54e" executionId="28018778-0d2f-4fcb-8144-9404b0ebc476" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f7f70fd-c531-351b-7337-2590fcb358bf" executionId="205d87ef-f619-4392-9493-35d8da244cd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc010075-dc55-718f-51f2-ae3f44922188" executionId="4a9b6dcd-e793-4cb2-9e70-0e010edf5995" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e64788e3-da31-37c7-ba42-0d852438ce82" executionId="60b06b99-21f9-484d-a9a3-fed0d5d9f347" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="714bf7e1-b961-3791-11a1-4d50e9d8d4c1" executionId="406b83b6-7b0e-4b12-97ff-51c09df7fac1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="04b1529c-bbef-432c-9ac8-0336804095ee" testId="455cc07f-4983-5cfa-6439-e8c6929d7029" testName="Rent_Per_Hour_GetCost_ManyHours" computerName="TQARWSW705" duration="00:00:00.0318127" startTime="2019-02-10T16:35:45.0350321-03:00" endTime="2019-02-10T16:35:46.0161302-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04b1529c-bbef-432c-9ac8-0336804095ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="d95d1339-cb09-47b3-a6af-0ac7dc7e1e75" testId="86339633-0f60-1b90-aaba-e6c1e071826a" testName="Rent_Per_Hour_GetCost_OneHour" computerName="TQARWSW705" duration="00:00:00.0002609" startTime="2019-02-10T16:35:46.0311317-03:00" endTime="2019-02-10T16:35:46.0381324-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d95d1339-cb09-47b3-a6af-0ac7dc7e1e75">
+    </UnitTestResult>
+    <UnitTestResult executionId="c78ee883-a899-490a-92bd-36f007391d86" testId="157bd4c3-2ea4-b821-4ad5-1749d62fb7a0" testName="Rent_Per_Hour_GetCost_WhitoutInitialize" computerName="TQARWSW705" duration="00:00:00.0002286" startTime="2019-02-10T16:35:46.0641350-03:00" endTime="2019-02-10T16:35:46.0711357-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c78ee883-a899-490a-92bd-36f007391d86">
+    </UnitTestResult>
+    <UnitTestResult executionId="974117dc-0b03-4b70-8f95-3ee1dd7f3024" testId="20ef357a-e2b1-1b39-b086-806b45cf6d8e" testName="Rent_Per_Day_GetCost_ManyDays" computerName="TQARWSW705" duration="00:00:00.0009912" startTime="2019-02-10T16:35:46.0821368-03:00" endTime="2019-02-10T16:35:46.0901376-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="974117dc-0b03-4b70-8f95-3ee1dd7f3024">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc6bb39d-8d12-4e36-906d-a5a9aa6166d9" testId="a8de74fa-1a25-896f-c4b8-d44dc141ad71" testName="Rent_Per_Day_GetCost_OneDay" computerName="TQARWSW705" duration="00:00:00.0002538" startTime="2019-02-10T16:35:46.1091395-03:00" endTime="2019-02-10T16:35:46.1151401-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc6bb39d-8d12-4e36-906d-a5a9aa6166d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c873200-30bf-4706-a131-d2cee3e01949" testId="79ded3df-0583-7777-4cdb-66c996c8d33e" testName="Rent_Per_Day_GetCost_WhitoutInitialize" computerName="TQARWSW705" duration="00:00:00.0002130" startTime="2019-02-10T16:35:46.1421428-03:00" endTime="2019-02-10T16:35:46.1491435-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c873200-30bf-4706-a131-d2cee3e01949">
+    </UnitTestResult>
+    <UnitTestResult executionId="69305c46-7517-44e3-b388-f40fb77620c5" testId="45bd35ee-1ada-3c4f-ec82-350fbc83b4a0" testName="Rent_Per_Week_GetCost_ManyWeeks" computerName="TQARWSW705" duration="00:00:00.0010228" startTime="2019-02-10T16:35:46.1651451-03:00" endTime="2019-02-10T16:35:46.1751461-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69305c46-7517-44e3-b388-f40fb77620c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="38a3ce83-4bcc-48c2-a6ba-0258fe9d405d" testId="4648ca78-7592-61e8-db46-b60e9c91ffb5" testName="Rent_Per_Week_GetCost_OneWeek" computerName="TQARWSW705" duration="00:00:00.0002524" startTime="2019-02-10T16:35:46.1961482-03:00" endTime="2019-02-10T16:35:46.2361522-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38a3ce83-4bcc-48c2-a6ba-0258fe9d405d">
+    </UnitTestResult>
+    <UnitTestResult executionId="28018778-0d2f-4fcb-8144-9404b0ebc476" testId="4b935f47-8282-abeb-2dc9-1c0f65cfa54e" testName="Rent_Per_Week_GetCost_WhitoutInitialize" computerName="TQARWSW705" duration="00:00:00.0002061" startTime="2019-02-10T16:35:46.2721558-03:00" endTime="2019-02-10T16:35:46.2841570-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28018778-0d2f-4fcb-8144-9404b0ebc476">
+    </UnitTestResult>
+    <UnitTestResult executionId="205d87ef-f619-4392-9493-35d8da244cd8" testId="5f7f70fd-c531-351b-7337-2590fcb358bf" testName="Rent_Per_Family_GetCost_3rents" computerName="TQARWSW705" duration="00:00:00.0047346" startTime="2019-02-10T16:35:46.3081594-03:00" endTime="2019-02-10T16:35:46.3611647-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="205d87ef-f619-4392-9493-35d8da244cd8">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a9b6dcd-e793-4cb2-9e70-0e010edf5995" testId="fc010075-dc55-718f-51f2-ae3f44922188" testName="Rent_Per_Family_GetCost_5rents" computerName="TQARWSW705" duration="00:00:00.0006099" startTime="2019-02-10T16:35:46.3881674-03:00" endTime="2019-02-10T16:35:46.4131699-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a9b6dcd-e793-4cb2-9e70-0e010edf5995">
+    </UnitTestResult>
+    <UnitTestResult executionId="60b06b99-21f9-484d-a9a3-fed0d5d9f347" testId="e64788e3-da31-37c7-ba42-0d852438ce82" testName="Rent_Per_Family_GetCost_2rents" computerName="TQARWSW705" duration="00:00:00.0456237" startTime="2019-02-10T16:35:46.4471733-03:00" endTime="2019-02-10T16:35:46.5331819-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60b06b99-21f9-484d-a9a3-fed0d5d9f347">
+    </UnitTestResult>
+    <UnitTestResult executionId="406b83b6-7b0e-4b12-97ff-51c09df7fac1" testId="714bf7e1-b961-3791-11a1-4d50e9d8d4c1" testName="Rent_Per_Family_GetCost_6rents" computerName="TQARWSW705" duration="00:00:00.0200415" startTime="2019-02-10T16:35:46.5621848-03:00" endTime="2019-02-10T16:35:46.6031889-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="406b83b6-7b0e-4b12-97ff-51c09df7fac1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

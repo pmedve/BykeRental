@@ -1,0 +1,9 @@
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\bin\Debug\BykeRental.Test.dll
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\bin\Debug\BykeRental.Test.pdb
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\bin\Debug\BykeRental.BusinessRules.dll
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\bin\Debug\BykeRental.BusinessRulesImplementation.dll
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\bin\Debug\BykeRental.BusinessRulesImplementation.pdb
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\bin\Debug\BykeRental.BusinessRules.pdb
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\obj\Debug\BykeRental.Test.csprojResolveAssemblyReference.cache
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\obj\Debug\BykeRental.Test.dll
+c:\users\jmedvedovsky\documents\visual studio 2010\Projects\BykeRental\BykeRental.Test\obj\Debug\BykeRental.Test.pdb
